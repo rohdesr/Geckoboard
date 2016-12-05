@@ -1,7 +1,8 @@
 ## Geckoboard Project for "Support Engineer Coding Challenge"
 
 ### Author
-Steven R. Rohde, <steverohde@mac.com>
+Steven R. Rohde  
+<steverohde@mac.com>
   
   
 ### Application File
