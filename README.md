@@ -38,14 +38,14 @@ Weather condition fields in the dataset `weather.montreal` are:
 
 
 ### Ideas for Improvement
-1. **Improved security**  
+1. **Improve Security**  
 Current Issue: API keys are included in the application code.
 Improvement: Fetch API key from file.
 
-2. **Additional locations**
+2. **Add More Locations**
 Current Issue: Only weather data from Montreal is supported.
 Improvement: Add support for additional cities.
 
 3. **Display Current Condition Icon in Image Widget**
-Current Issue: The URI for the weather conditions icon is stored in field `icon`; however, the icon cannot be displayed in the dashboard because the image widget does not support datasets.
+Current Issue: OpenWeatherMap provides several weather condition icons: a day and a night version corresponding to each unique condition description. The URI for the current weather condition icon is stored in dataset field `icon`; however, the icon for the most recent observation cannot be displayed in the dashboard because the image widget does not support datasets.
 Improvement: Modify the application so that it publishes the icon image file for the most recent weather observation to a static address on a server.   By referencing a static URI, the image widget can display the current conditions icon.
