@@ -26,7 +26,7 @@ Weather condition fields in the dataset `weather.montreal` are:
 | Field Name 	| Display Name              	| Type   	| Description                                                                                                                       	|
 |--------------	|-----------------------------	|----------	|-------------------------------------------------------------------------------------------------------------------------------------	|
 | `description`  	| Current conditions          	| string   	| Short description of current weather conditions, e.g. _light snow_.                                                                 	|
-| `icon`         	| Current conditions icon URI 	| string   	| URI for the icon hosted at openweathermap.org that corresponds to the current conditions,   e.g. _light snow_ is reprsentd by >> ![light snow](http://openweathermap.org/img/w/13d.png) 	|
+| `icon`         	| Current conditions icon URI 	| string   	| URI for the icon hosted at openweathermap.org that corresponds to the current conditions,   e.g. _light snow_ is represented by >> ![light snow](http://openweathermap.org/img/w/13d.png) 	|
 | `temperature`  	| Temperature, deg C          	| number   	| Air temperature, ˚C.                                                                                                                	|
 | `pressure`     	| Pressure, hPa               	| number   	| Barometric pressure, hPa (hectopascals).                                                                                                           	|
 | `humidity`     	| Relative Humidity, %        	| number   	| Relative humidity.                                                                                                                  	|
